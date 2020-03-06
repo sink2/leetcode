@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class convert {
+public class Convert {
     public static String convert(String s, int numRows) {
         if (numRows == 1) return s;
         List<StringBuilder> sbs = new ArrayList<>(numRows);
